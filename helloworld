@@ -1,0 +1,12 @@
+using System;
+ 
+class HelloWorld
+{
+    public static void Main(String[] args)
+    {
+        DateTime dNow = System.DateTime.Now.AddHours(9);
+        Console.WriteLine("Hello World!!"+"\r\nIt's "+dNow.Hour+":"+dNow.Minute+" now in Japan.");
+       
+
+    }
+}
